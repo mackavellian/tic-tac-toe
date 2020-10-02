@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://use.typekit.net/rbn3psr.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="fader">
+
+    <header>
+        <h1 class="page-heading">
+            <span class="tic animate__animated animate__fadeInUp">TIC</span><span class="tac animate__animated animate__fadeInUp">-TAC</span><span class="toe animate__animated animate__fadeInUp">-TOE</span>
+        </h1>
+    </header>
+
+    <section class="game-status-container">
+        <h1 class="player-x current-turn">X</h1>
+        <h3 class="score"></h3>
+        <h1 class="player-o">O</h1>
+        <div class="placeholder"></div>
+        <h2 class="winner"></h2>
+    </section>
+
+    <button class="play-again">Play again</button>
+
+    <section class="grid-container">
+        <section class="play-grid animate__animated animate__fadeInUp">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

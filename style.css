@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1e1e1e;
+    color: white;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+h1 {
+    font-family: bc-alphapipe,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.page-heading {
+    margin-top: 15px;
+    margin-bottom: 2rem;
+}
+
+.page-heading h1 {
+    font-family: neon-stream, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.play-again {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid #696969;
+    border-radius: 10%;
+    padding: .5rem;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    transition: box-shadow 0.1s ease-in;
+    visibility: hidden;
+}
+
+.play-again:hover {
+    box-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+
+.play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.play-grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    font-family: bc-alphapipe,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+    border: 1px solid #696969;
+}
+
+.play-grid div:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.grid-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+.x-class {
+    color: #B9F0C0;
+    animation: fadein .4s;
+}
+
+.o-class {
+    color: #FFBBCD;
+    animation: fadein .4s;
+}
+
+.game-status-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto 10px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.player-x {
+    color: #B9F0C0;
+}
+
+.player-o {
+    color: #FFBBCD;
+}
+
+.winner {
+    letter-spacing: 2px;
+    height: 1.5rem;
+}
+
+.current-turn {
+    text-decoration: underline;
+}
+
+.score {
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+.tic {
+    animation-delay: .2s;
+}
+
+.tac {
+    animation-delay: .5s;
+}
+
+.toe {
+    animation-delay: .8s;
+}
+
+

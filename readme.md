@@ -11,6 +11,8 @@ A simple game of Tic-Tac-Toe (aka Noughts and Crosses).
 
 Just load the page right here in your browser!
 
+Click <a href="https://mackavellian.github.io/tic-tac-toe/" target="_blank">HERE</a> to play
+
 ## Development
 
 Technologies used: Html, CSS, Javascript

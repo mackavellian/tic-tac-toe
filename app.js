@@ -17,7 +17,7 @@ var squareEight = document.querySelectorAll('.play-grid > div')[7];
 var squareNine = document.querySelectorAll('.play-grid > div')[8];
 
 
-
+// display x and o win counter variable values as text content
 document.querySelector('.score').textContent = `${xWinCounter}  :  ${oWinCounter}`;
 
 
@@ -95,12 +95,7 @@ function playSquare(event) {
         }
     }
 
-    // // underline 'x' or 'o' to indicate current player's turn
-    // if (document.querySelector('h2').textContent == '') {
-    //     document.querySelector('.player-x').classList.toggle('current-turn');
-    //     document.querySelector('.player-o').classList.toggle('current-turn');
-    // }
-
+    // update win counter display
     document.querySelector('.score').textContent = `${xWinCounter}  :  ${oWinCounter}`;
 
 }
